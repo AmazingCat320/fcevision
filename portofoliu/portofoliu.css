@@ -1,0 +1,90 @@
+body{
+    width: auto;
+    overflow-x: hidden;
+}
+
+#footer{
+    width: 105%;
+    margin-inline: -9px;
+}
+
+#main{
+    padding-inline: 14%;
+}
+
+#p-box{
+    width: 30%;
+    position: relative;
+    text-align: left;
+    color: white;
+    left: 0;
+    float: left;
+    margin-top: 40px;
+    margin-right: 28px;
+    margin-bottom: 30px;
+}
+
+#p-bg{
+    width: 100%;
+    border-radius: 19px;
+}
+
+#p-textbox{
+    position: absolute;
+    bottom: -26.5px;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.693);
+    width: 100%;
+    border-radius: 19px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 17.8px;
+    text-align: center;
+}
+
+#p-box:hover{
+    #p-textbox{
+        height: 65%;
+        bottom: -64px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+#p-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media only screen and (max-width: 1182px){
+    #p-box{
+        float: none;
+        width: 88%;
+    }
+
+    #p-box:hover{
+        #p-textbox{
+            height: 65%;
+            bottom: -31%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 428px){
+    #p-box{
+        float: none;
+        width: 100%;
+    }
+
+    #p-textbox{
+        font-size: 15px;
+        bottom: -20px;
+    }
+}

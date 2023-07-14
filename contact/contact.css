@@ -1,0 +1,167 @@
+#email-contact-form-container{
+    margin-top: 50px;
+    width: 65%;
+}
+
+#form-box-title{
+    font-family: "Rokkitt", sans-serif;
+    font-size: 27px;
+    color: rgb(49, 49, 49);
+}
+
+#form-email{
+    font-family: "rokkitt", sans-serif;
+    font-size: 19px;
+}
+
+#name-in, #subject-in{
+    outline: 0;
+    border: 2.6px solid rgb(31, 31, 31);
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 8px;
+    font-family: "rokkitt", sans-serif;
+    font-size: 18px;
+}
+
+#msg-in{
+    margin-left: 0;
+    outline: 0;
+    border: 2.6px solid rgb(31, 31, 31);
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 8px;
+    font-family: "rokkitt", sans-serif;
+    font-size: 18px;
+    height: 150px;
+}
+
+#submit-btn{
+    outline: 0;
+    background: rgb(226, 226, 0);
+    border: 2.6px solid rgb(226, 226, 0);
+    font-family: "rokkitt", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 8px;
+    transition-duration: .2s;
+    width: 120px;
+}
+
+#submit-btn:hover{
+    background: transparent;
+    color: rgb(79, 79, 0);
+}
+
+
+#contact-con{
+    margin-top: 38px;
+    width: 65%;
+}
+
+#contact-ico{
+    width: 40px;
+    float: left;
+}
+
+#contact-tel{
+    font-family: "Rokkitt", serif;
+    font-weight: 400;
+    font-size: 24.5px;
+    color: rgb(6, 6, 6);
+    margin-top: 50px;
+    line-height: 24px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+#tel-box{
+    border-top: 2px solid gray;
+    padding-top: 38px;
+}
+
+#email-box{
+    margin-top: 88px;
+    border-top: 2px solid gray;
+    padding-top: 38px;
+}
+
+#contact-email-text{
+    font-family: "Rokkitt", serif;
+    font-weight: 400;
+    font-size: 24.5px;
+    color: rgb(6, 6, 6);
+    margin-top: 50px;
+    line-height: 24px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+#socialmedia-box, #socialmedia-box-ig{
+    margin-top: 88px;
+    border-top: 2px solid gray;
+    padding-top: 38px;
+}
+
+#socialmedia-box-ig{
+    border-bottom: 2px solid gray;
+    height: 55px;
+}
+
+#contact-email-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 17.6px;
+    color: rgb(29, 29, 29);
+    background: transparent;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+
+#contact-email-link:hover{
+    color: white;
+    background: black;
+    transition-duration: .2s;
+    padding: 4px;
+    font-size: 16.8px;
+}
+
+@media only screen and (max-width: 840px){
+    #email-contact-form-container{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    #contact-con{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 442px){
+    #contact-con{
+        width: 98%;
+    }
+
+    #contact-tel, #contact-email-text{
+        font-size: 18px;
+        margin-left: 12px;
+    }
+
+    #contact-email-link{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 333px){
+    #contact-ico{
+        width: 33px;
+    }
+
+    #contact-email-link{
+        font-size: 12.5px;
+    }
+}

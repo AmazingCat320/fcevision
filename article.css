@@ -1,0 +1,108 @@
+body{
+    overflow-x: none;
+}
+
+#header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#main{
+    margin-top: 50px;
+    padding-inline: 17.5%;
+
+}
+
+#content{
+    display: block;
+}
+
+.spacing-line-top{
+    border-top: 3px solid rgb(64, 64, 64);
+    width: auto;
+}
+
+#space{
+    height: 40px;
+}
+
+#art-title{
+    width: fit-content;
+    font-family: "Rokkitt", serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: rgb(26, 26, 26);
+    margin-bottom: 50px;
+}
+
+#art-text.spacing-line-top{
+    border-top: 3px solid rgb(65, 65, 65);
+    margin-top: 0;
+    padding-top: 64px;
+    width: fit-content;
+}
+
+#art-text{
+    font-family: "Rokkitt", serif;
+    font-weight: 400;
+    font-size: 24.5px;
+    color: rgb(6, 6, 6);
+    margin-top: 50px;
+}
+
+#art-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 17.6px;
+    color: rgb(29, 29, 29);
+    background: transparent;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+
+#art-link:hover{
+    color: white;
+    background: black;
+    transition-duration: .2s;
+    padding: 4px;
+    font-size: 16.8px;
+}
+
+/* footer */
+#footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: rgb(22, 22, 22);
+    width: 101.2%;
+    margin-left: -0.6%;
+    margin-bottom: -8px;
+    margin-top: 70px;
+}
+
+#f-cap{
+    margin-inline: 17.5%;
+}
+
+@media only screen and (max-width: 1050px){
+    #main{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    #main{
+        padding-inline: 6%;
+    }
+
+    #f-cap{
+        margin-inline: 6%;
+    }
+}
+
+@media only screen and (max-width: 367px){
+    #art-title{
+        font-size: 49px;
+    }
+}
