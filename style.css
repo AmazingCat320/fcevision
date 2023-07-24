@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/bg4.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    width: 60%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border: 1.9px solid rgb(238, 238, 238);
+    border-radius: 21px;
+    backdrop-filter: blur(30px);
+    color: rgb(254, 240, 215);
+}
+    
+#left{
+    float: left;
+    width: 59%;
+    height: 100%;
+}
+
+#right{
+    float: left;
+    width: 39%;
+    margin-left: 2%;
+}
+
+#box1{
+    display: block;
+}
+
+#box2, #box3{
+    display: none;
+}
+
+#box1.off{
+    display: none;
+}
+
+#box2.on, #box3.on{
+    display: block;
+}
+
+.overflow{
+    height: 460px;
+    overflow-y: auto;
+}
+
+.overflow::-webkit-scrollbar{
+    width: 6px;
+}
+
+.overflow::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.overflow::-webkit-scrollbar-thumb {
+    background: rgba(255, 209, 123, 0.4);
+    transition: background 0.2s;
+    border-radius: 4px;
+}
+
+.overflow::-webkit-scrollbar-thumb:hover{
+    background: rgba(255, 255, 255, 0.858);
+    transition: background 0.2s;
+}
+
+#title{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+#title2{
+    font-family: "Della Respira", sans-serif;
+    font-size: 42px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+#text{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 22px;
+}
+
+#form-container{
+    width: 100%;
+}
+
+#form{
+    width: 100%;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 17px;
+}
+
+#name, #subject, #msg{
+    width: 100%;
+    border: 1.9px solid rgb(238, 238, 238);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 17px;
+    padding: 4px;
+    padding-inline: 6px;
+    outline: 0;
+    background: transparent;
+    color: rgb(253, 243, 224);
+}
+
+#name:hover, #subject:hover, #msg:hover{
+    outline: 0;
+}
+
+#name, #subject{
+    height: 26px;
+}
+
+#msg{
+    height: 110px;
+}
+
+#submit{
+    width: 100%;
+    margin-left: 4px;
+    outline: 0;
+    background: wheat;
+    color: rgb(0, 133, 148);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 19px;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1.9px solid wheat;
+    transition-duration: 0.2s;
+}
+
+#submit:hover{
+    background: transparent;
+    color: whitesmoke;
+    transition-duration: 0.2s;
+}
+
+#btn{
+    width: auto;
+    margin-left: 50%;
+    margin: auto;
+    outline: 0;
+    background: rgb(245, 222, 179);
+    color: rgb(0, 133, 148);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 17px;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1.9px solid rgb(245, 222, 179);
+    transition-duration: 0.2s;
+}
+
+#btn:hover{
+    background: transparent;
+    color: whitesmoke;
+    transition-duration: 0.2s;
+}
+
+#ico{
+    width: 25px;
+    float: left;
+}
+
+#mail-link{
+    width: max-content;
+    margin-top: -23px;
+    float: left;
+    margin-left: 9px;
+    color: rgb(253, 243, 224);
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 19px;
+}
+
+#bottom{
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+#counter{
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
+
+#counter-a{
+    font-size: 29px;
+    font-weight: 500;
+}
+
+#counter-m{
+    font-size: 29px;
+    font-weight: 500;
+}
+
+#counter-b{
+    font-size: 29px;
+    font-weight: 500;
+}
+
+#prev, #next{
+    width: max-content;
+    height: auto;
+    background: transparent;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    outline: 0;
+    padding: 5px;
+    border: 1.9px solid rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+#prev:hover, #next:hover{
+    background: whitesmoke;
+    color: rgb(0, 108, 150);
+    transition-duration: 0.2s;
+    border: 1.7px solid rgb(255, 255, 255);
+}
+
+#icons{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#ico-social{
+    width: 26px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 1027px){
+    #main{
+        width: 80%; 
+    }
+}
+
+@media only screen and (max-width: 743px){
+    #main{
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top: unset;
+        margin-top: 5%;
+        left: unset;
+        transform: none;
+        padding: 20px;
+        border-radius: 21px;
+        margin-bottom: 5%;
+    }
+
+    #left{
+        float: none;
+        width: 90%;
+    }
+
+    #right{
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: unset;
+    }
+
+    #name,#subject,#msg{
+        padding-inline: 5px;
+        margin-left: -5px;
+    }
+
+    #bottom{
+        position: unset;
+        left: unset;
+        top: unset;
+        transform: unset;
+        bottom: unset;
+        margin-top: 45px;
+    }
+
+    .overflow{
+        height: unset;
+        overflow-y: unset;
+    }
+}
+
+@media only screen and (max-width: 342px){
+    #prev,#next{
+        font-size: 16px;
+    }
+
+    #counter-a,#counter-m,#counter-b{
+        font-size: 16px;
+    }
+
+    #mail-link{
+        font-size: 16px;
+    }
+}
