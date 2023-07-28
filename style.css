@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("images/bg4.png");
+    background-image: url("images/tomis\ street.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,8 @@ body{
     padding: 40px;
     border: 1.9px solid rgb(238, 238, 238);
     border-radius: 21px;
-    backdrop-filter: blur(30px);
+    background: rgba(0, 0, 0, 0.152);
+    backdrop-filter: blur(40px);
     color: rgb(254, 240, 215);
 }
     
@@ -134,8 +135,9 @@ body{
     margin-left: 4px;
     outline: 0;
     background: wheat;
-    color: rgb(0, 133, 148);
+    color: rgb(0, 0, 0);
     font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
     font-size: 19px;
     padding: 8px;
     margin-top: 8px;
@@ -155,9 +157,10 @@ body{
     margin: auto;
     outline: 0;
     background: rgb(245, 222, 179);
-    color: rgb(0, 133, 148);
+    color: rgb(0, 0, 0);
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 17px;
+    font-weight: 500;
     padding: 8px;
     margin-top: 10px;
     border: 1.9px solid rgb(245, 222, 179);
@@ -269,7 +272,7 @@ body{
 
     #left{
         float: none;
-        width: 90%;
+        width: 100%;
     }
 
     #right{

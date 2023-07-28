@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Fce vision</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content="" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../snippet.js"></script>
+    <script src="../script.js"></script>
+    <script src="../loc.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="icon" href="../favicon.png">
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="box1">
+                <h1 id="title2">About Us</h1>
+                <p id="text">We are a Romanian firm, we give services of photography and filmmaking at professional levels to our clients.
+                    We can record and photograph weddings, shoot an ad for your business, or make YouTube and Instagram content for you.
+                </p>
+                <h1 id="title2">Contact</h1><br>
+                <img id="ico" src="images/call.png" alt="">
+                <p id="text">
+                    <a id="mail-link" href="tel:0730-649-274">+40 730 649 274</a><br>
+                    <a id="mail-link" href="tel:0736-050-428">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+40 0736 050 428</a>
+                </p><br>
+                <img id="ico" src="images/mail.png" alt="mail">
+                <p id="text">
+                    <a id="mail-link" href="mailto:fcevision@gmail.com">fcevision@gmail.com</a> 
+                </p>  
+            </div>
+            <div id="box2" class="overflow">
+                <h1 id="title2">Our services:</h1>
+                <p id="text">1. Filming weddings or personal events.</p>
+                <p id="text">2. Filming and editing ads for your business.</p>
+                <p id="text">3. Filming artistic events or comercial events, live streaming.</p>
+                <p id="text">Fce vision has high quality video and photo equipment. Video resolution follows the modern standard of 4k 
+                    while our photos can get up to 6K. We can perform aerial recordings as well as photos. You can check out our content that
+                    has been published online: on our YouTube channel and on the Instagram profile of our photographer.
+                </p>
+            </div>
+            <div id="box3">
+                <h1 id="title2">Portfolio</h1>
+                <p id="text">Examples of our content and quality of production can be seen on the Fce vision YouTube channel and on the
+                    Instagram profile of our photographer.
+                </p>
+                <button id="btn" type="button" onclick="window.location.href='https://www.youtube.com/@fcevision1837';">YouTube</button>
+                <button id="btn" type="button" onclick="window.location.href='https://www.instagram.com/francesco2d/';">Instagram</button>
+            </div>
+            <div id="bottom"><br>
+                <p id="counter">
+                    <a id="prev" href="#" onclick="prev()">&nbsp;<&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a id="counter-a">01</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a id="counter-m">/</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a id="counter-b">03</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a id="next" href="#" onclick="next()">&nbsp;>&nbsp;</a>
+                </p>
+            <div id="icons">
+                <p>
+                    <a href="https://www.youtube.com/@fcevision1837"><img id="ico-social" src="images/youtube.png" alt="youtube icon"></a>
+                    <a href="https://www.instagram.com/francesco2d/"><img id="ico-social" src="images/instagram.png" alt="instagram logo"></a>
+                </p>    
+            </div>
+            </div>
+        </div>
+        <div id="right">
+            <h1 id="title">fce vision</h1>
+            <div id="form-container">
+                <form id="form" action="https://formsubmit.co/francesco.strmih@gmail.com" method="POST">
+                    Email:<br><input id="name" type="email" name="email" required> <br>
+                    Name:<br><input id="name" type="text" name="name" required> <br>
+                    Subject:<br><input id="subject" type="text" name="subject" required><br>
+                    Message: <br>
+                    <textarea id="msg" type="text" name="message" required></textarea><br>
+                    <input id="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>
